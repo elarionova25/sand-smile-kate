@@ -1,0 +1,26 @@
+/* стили блока about */
+
+.about {
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url('/images/castle_background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.about_fade {
+    background-color: rgba(21, 43, 60, 0.4);
+    padding-top: 191px;
+    padding-bottom: 235px;
+}
+
+
+/*задаем тень на картинку */

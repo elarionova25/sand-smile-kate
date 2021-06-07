@@ -1,0 +1,38 @@
+body {}
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 116px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 58px;
+    font-weight: 300;
+    color: rgba(212, 98, 64, 1);
+    text-align: center;
+    /* возможно нужно будет убрать, и прописать для всего блока */
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 36px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /*делаем сайт по центру */
+    width: 1440px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}

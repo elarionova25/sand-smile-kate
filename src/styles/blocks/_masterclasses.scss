@@ -1,0 +1,75 @@
+/* стили блока masterclass */
+
+.masterclass_list {
+    display: flex;
+    list-style: none;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+.masterclass_item {
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+}
+
+.masterclass_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.masterclass_promo {
+    margin-top: auto;
+}
+
+.masterclass_about {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.masterclass_info {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.masterclass_info span {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    color: #D46240;
+}
+
+.masterclass_price {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 28px;
+    color: #D46240;
+}
+
+.masterclass_btn {
+    display: block;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    // border: 1px solid #000;
+    background-color: #D46240;
+    border-radius: 5px;
+    margin-bottom: 33px;
+    // margin-top: 5px;
+    margin-left: 121px;
+    margin-right: 121px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
