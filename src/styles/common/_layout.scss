@@ -14,6 +14,7 @@ h2 {
     color: rgba(212, 98, 64, 1);
     text-align: center;
     /* возможно нужно будет убрать, и прописать для всего блока */
+    margin-top: 100px;
 }
 
 h3 {
@@ -32,7 +33,7 @@ h3 {
 
 .container {
     /*делаем сайт по центру */
-    width: 1440px;
+    max-width: 1278px;
     margin: 0 auto;
     border: 1px solid #000;
 }
