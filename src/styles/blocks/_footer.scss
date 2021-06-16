@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    background: #152B3C;
+}
+
+.footer_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+        font-family: $font;
+        font-size: 20px;
+        width: 400px;
+        color: rgba(251, 242, 218, 1);
+        margin: 30px 0;
+    }
+}
+
+.social_list {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+.social_item {
+    a {
+        font-size: 0;
+        color: ivory;
+        text-decoration: none;
+    }
+}
+
+.social_icon {
+    display: block;
+    width: 26px;
+    /* Размер иконки по макету */
+    height: 26px;
+    /* Размер иконки по макету */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_wrap {
+    padding: 7.5px;
+}

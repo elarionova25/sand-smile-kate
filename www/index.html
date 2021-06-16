@@ -215,44 +215,82 @@
 
         <section class="contact">
             <div class="container">
-                <h2>Контакты</h2>
-                <p>Остались вопросы? Позвоните нам по телефону <a href="#">+7 812 888-88-88</a>, напишите в <a href="#">whatsapp</a> или заполните форму и мы ответим вам в whatsapp по указанному номеру телефона.
-                </p>
+                <div class="contact_about">
+                    <h2>Контакты</h2>
+                    <p>Остались вопросы? Позвоните нам по телефону <a href="#">+7 812 888-88-88</a>, напишите в <a href="#">whatsapp</a> или заполните форму и мы ответим вам в whatsapp по указанному номеру телефона.
+                    </p>
+                </div>
 
-                <div class="form">
-                    <p>Имя</p>
-                    <!-- тут будет форма для имени -->
+                <div class="contact_wrap">
 
-                    <p>Телефон</p>
-                    <!-- тут будет форма для телефона-->
+                    <form action="#" method="POST" class="contact_form">
 
-                    <p>ЧаГо надо?</p>
-                    <!-- тут будет форма для вопроса-->
+                        <div class="contact_form_field">
+                            <label for="name">Имя</label>
+                            <input name="name" id="name" type="text" autocomplete="off" required>
+                        </div>
 
-                    <p>Даю согласие на обработку персональных данных с соответствии с <a href="#">политикой обработки
-              персональных данных</a></p>
+                        <div class="contact_form_field">
+                            <label for="telephone">Телефон</label>
+                            <input name="telephone" id="telephone" type="text" autocomplete="off" required>
+                        </div>
 
-                    <a href="#" class="btn">Отправить</a>
+                        <div class="contact_form_field contact_form_field_full">
+                            <label for="message">Сообщение</label>
+                            <textarea name="message" id="message" type="text" autocomplete="off" required></textarea>
+                        </div>
+
+                        <div class="contact_form_field contact_form_field_full">
+                            <input id="confirm" type="checkbox">
+                            <label for="confirm">
+                Даю согласие на обработку персональных данных с соответствии с <a href="#">политикой обработки
+                  персональных данных</a>
+              </label>
+                        </div>
+
+                        <a href="#" class="contact_btn btn">Отправить</a>
+
+                    </form>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>© Ничего не защищено</p>
+            <div class="footer_wrap">
+                <p>© Ничего не защищено</p>
 
-            <ul class="social_list">
-                <li class="social_item">
-                    <a href="#">Связаться с нами в Instagram</a>
-                </li>
-                <li class="social_item">
-                    <a href="#">Связаться с нами в Facebook</a>
-                </li>
-                <li class="social_item">
-                    <a href="#">Связаться с нами в Telegram</a>
-                </li>
-            </ul>
+                <ul class="social_list">
+                    <li class="social_item">
+                        <a href="#" class="social_link">
+              Связаться с нами в Instagram
+
+              <div class="icon_wrap">
+                <i class="social_icon" style=" background-image: url('/images/Vector_icon_inst.svg');"></i>
+              </div>
+
+
+            </a>
+                    </li>
+                    <li class="social_item">
+                        <a href="#">Связаться с нами в Facebook
+
+              <div class="icon_wrap">
+                <i class="social_icon" style=" background-image: url('/images/Vector_icon_facebook.svg');"></i>
+              </div>
+            </a>
+
+                    </li>
+                    <li class="social_item">
+                        <a href="#">Связаться с нами в Telegram
+              <div class="icon_wrap">
+                <i class="social_icon" style=" background-image: url('/images/Vector_icon_telegram.svg');"></i>
+              </div>
+            </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
