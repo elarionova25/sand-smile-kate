@@ -75,8 +75,9 @@ textarea {
 }
 
 .contact_form_checkbox {
+    display: flex;
     margin-bottom: 30px;
-    display: inline-block;
+    // display: inline-block;
 }
 
 .contact_checkbox {
@@ -100,6 +101,7 @@ textarea {
 }
 
 .about_checkbox {
+    // display: flex;
     display: inline-block;
     font-family: 'Open Sans';
     font-weight: 400;
