@@ -1,15 +1,23 @@
-.gallery {
-    background-color: rgba(251, 242, 218, 1);
-    h2 {
-        margin-top: 100px;
-        margin-bottom: 50px;
+    .gallery {
+        background-color: rgba(251, 242, 218, 1);
+        h2 {
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
     }
-}
 
-.slider {
-    display: flex;
-    width: 83.33%;
-    justify-content: center;
-    margin: 0 auto;
-    padding-bottom: 145px;
-}
+    // .photos-wrap {
+    //     display: flex;
+    //     justify-content: center;
+    //     margin: 0 auto;
+    //     padding-bottom: 145px;
+    // }
+    .slider-item {
+        width: 83.33%;
+        // это возможно нужно будет убрать
+        img {
+            display: inline-block;
+            height: 600px;
+            width: 1060px;
+        }
+    }

@@ -113,8 +113,21 @@
         <section class="gallery">
             <div class="container">
                 <h2>Фото с мероприятий</h2>
-                <div class="slider">
-                    <img src="images/slider-items_boy.jpg" alt="Мальчик строит замок из песка">
+                <div class="photos-wrap js-slider-wrap">
+                    <button class="slider-btn prev js-btn-prev"></button>
+                    <div class="slider js-slider">
+                        <div class="slider-item">
+                            <img src="images/slider-items_boy.jpg" alt="Мальчик строит замок из песка">
+                        </div>
+                        <div class="slider-item">
+                            <img src="/images/classes-photofamily.jpg" alt="Семья стоит на берегу моря">
+                        </div>
+                        <div class="slider-item">
+                            <img src="/images/classes-photo_sunrise.jpg" alt="Концерт на закате">
+                        </div>
+
+                    </div>
+                    <button class="slider-btn next js-btn-next"></button>
                 </div>
             </div>
         </section>
@@ -167,8 +180,8 @@
                 <h2>Команда</h2>
                 <ul class="command_list">
                     <li class="command_item">
-                        <div class="command_card">
-                            <a href="#" class="command_person">
+                        <div class="command_card ">
+                            <a href="#" class="command_person active">
                                 <img src="/images/member photo_lee.jpg" alt="Sir Lee Wow I" class="command_pic">
                                 <p class="person_name">Sir Lee Wow I</p>
                             </a>
@@ -204,6 +217,21 @@
                     </li>
                 </ul>
 
+
+                <div class="command_about command_about_visible">
+                    <h3>Sir Lee Wow I</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="command_about">
+                    <h3>Penelope</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="command_about">
+                    <h3>Mr. B.B.</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
 
                 <div class="command_about">
                     <h3>Sir Lee Wow II</h3>
@@ -243,11 +271,9 @@
                         <div class="contact_form_checkbox">
                             <input id="confirm" type="checkbox" class="contact_checkbox">
                             <label for="confirm" class="about_checkbox">
-                            <div class="about_checkbox_text">
-                                Даю согласие на обработку персональных данных с
-                                соответствии с <a href="#">политикой обработки
-                                  персональных данных</a>
-                            </div>
+                Даю согласие на обработку персональных данных с
+                соответствии с <a href="#">политикой обработки
+                  персональных данных</a>
               </label>
                         </div>
 
@@ -290,6 +316,10 @@
             </div>
         </div>
     </footer>
-</body>
+
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/slick.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>s
 
 </html>
