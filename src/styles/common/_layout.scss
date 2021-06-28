@@ -1,4 +1,6 @@
-body {}
+body {
+    margin: 0;
+}
 
 h1 {
     font-family: 'Raleway';
@@ -35,5 +37,5 @@ h3 {
     /*делаем сайт по центру */
     max-width: 1278px;
     margin: 0 auto;
-    border: 1px solid #000;
+    // border: 1px solid #000;
 }

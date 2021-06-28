@@ -87,8 +87,11 @@ textarea {
 
 .contact_checkbox:checked+.about_checkbox:before {
     background-image: url('/images/Vector_checkbox.svg');
-    // background-color: black;
-    // box-shadow: inset 0 0 0 2px #fff;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2px rgba(212, 98, 64, 1);
 }
 
 .about_checkbox:before {
